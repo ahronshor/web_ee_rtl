@@ -2,6 +2,22 @@
 <openerp>
     <data>
 
+        <template id="layout" inherit_id="web.webclient_bootstrap" name="EE RTL Layout">
+            <xpath expr="//head/link" position="after">
+                <link t-if="lang_direction == 'rtl'" href="/web_ee_rtl/static/src/css/rtl.css" rel="stylesheet"/>
+            </xpath>
+
+            <xpath expr="//body" position="replace">
+                <t t-if="lang_direction == 'rtl'">
+                    <body class="rtl o_web_client">
+                    </body>
+                </t>
+                <t t-if="lang_direction != 'rtl'">
+                    <body class="o_web_client">
+                    </body>
+                </t>
+            </xpath>
+        </template>
 
 
     </data>
