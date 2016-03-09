@@ -28,9 +28,7 @@ class QWeb(models.AbstractModel):
         lang_directions = lang_obj.get_languages_dir(cr, uid, [], context=context)
         lang_direction = lang_directions.get(lang, 'ltr')
         qwebcontext['lang_direction'] = qwebcontext.get('lang_direction', None) or lang_direction
-
-        return super(QWeb, self).render(self, cr, uid, id_or_xml_id, qwebcontext=qwebcontext, loader=loader, context=context)
-
+        return super(QWeb, self).render(cr, uid, id_or_xml_id, qwebcontext=qwebcontext, loader=loader, context=context)
 
 class res_lang(models.Model):
     _name = 'res.lang'
