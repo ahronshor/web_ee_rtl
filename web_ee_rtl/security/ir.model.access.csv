@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_web_ee_rtl_web_ee_rtl,web_ee_rtl.web_ee_rtl,model_web_ee_rtl_web_ee_rtl,,1,0,0,0
