@@ -25,7 +25,7 @@ class QWeb(models.AbstractModel):
             else:
                 lang = 'en_US'
 
-        lang_directions = lang_obj.get_language_dir(cr, uid, [], context=context)
+        lang_directions = lang_obj.get_languages_dir(cr, uid, [], context=context)
         lang_direction = lang_directions.get(lang, 'ltr')
         qwebcontext['lang_direction'] = qwebcontext.get('lang_direction', None) or lang_direction
 
