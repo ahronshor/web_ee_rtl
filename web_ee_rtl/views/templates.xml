@@ -4,7 +4,7 @@
 
         <template id="layout" inherit_id="web.webclient_bootstrap" name="EE RTL Layout">
             <xpath expr="//head/link" position="after">
-                <link t-if="lang_direction == 'rtl'" href="/web_ee_rtl/static/src/css/rtl.css" rel="stylesheet"/>
+                <link t-if="lang_direction == 'rtl'" href="/web_ee_rtl/static/src/css/rtl.css" rel="stylesheet" type="text/css"/>
             </xpath>
 
             <xpath expr="//body" position="replace">
