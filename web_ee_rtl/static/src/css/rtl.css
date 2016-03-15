@@ -138,3 +138,12 @@ padding-left: 0px;
 .rtl .o_kanban_view .o_kanban_record .o_kanban_tags{
 margin: 0px -8px 8px 0px;
 }
+
+.rtl .o_form_view .oe_avatar{
+float: left;
+}
+
+.rtl .o_form_view .oe_avatar+.oe_title {
+padding-right: 0px;
+padding-left: 100px;
+}
