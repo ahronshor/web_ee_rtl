@@ -87,7 +87,41 @@
 
 .rtl{direction:rtl}
 
-@media (min-width: 768px)
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-float: left;
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+float:right;
+}
+
+.nav .navbar-nav .o_menu_sections{
+float:right;
+}
+
+.navbar-brand {
+float: right;
+padding: 16px 13px;
+}
+
+.o_web_client .navbar .o_menu_toggle{
+margin-left: 4px;
+float: right;
+}
+
+.o_web_client .navbar .o_menu_brand{
+margin-left:25px;
+margin-right:0px;
+}
+
+.rtl .navbar-nav{
+float:right;
+}
+
+.rtl .o_kanban_view.o_kanban_dashboard.o_kanban_ungrouped .o_kanban_card_header .o_kanban_manage_button_section .o_kanban_manage_toggle_button {
+text-align: left;
+}
+
+.rtl .o_kanban_view.o_kanban_dashboard.o_salesteam_kanban .o_sales_dashboard>div>table>tbody>tr>td.o_text{
+text-align: right;
+}
+
+.rtl .o_form_buttons_view{
+float:right;
 }
