@@ -102,12 +102,13 @@ padding: 16px 13px;
 
 .o_web_client .navbar .o_menu_toggle{
 margin-left: 4px;
+margin-right: 0px !important;
 float: right;
 }
 
 .o_web_client .navbar .o_menu_brand{
-margin-left:25px;
-margin-right:0px;
+margin-left:25px !important;
+margin-right:0px !important;
 }
 
 .rtl .navbar-nav{
@@ -147,3 +148,29 @@ float: left;
 padding-right: 0px;
 padding-left: 100px;
 }
+
+.rtl .container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 16px;
+padding-right: 0px;
+}
+
+.navbar-inverse .navbar-collapse {
+float: left;
+margin-left:-70px !important;
+}
+
+.o_web_client .navbar .oe_systray .o_user_menu{
+float:left !important;
+}
+
+.navbar-nav>li{
+float:right !important;
+}
+
+.o_control_panel .o_cp_switch_buttons {
+    padding-right: 5px;
+    padding-left: 0px !important;
+}
+
