@@ -44,5 +44,5 @@ class res_lang(models.Model):
         return self._get_languages_dir(cr, uid, ids, context=context)
 
     def write(self, cr, uid, ids, vals, context=None):
-        self._get_languages_dir.clear_cache()
+        # self._get_languages_dir.clear_cache()
         return super(res_lang, self).write(cr, uid, ids, vals, context)
