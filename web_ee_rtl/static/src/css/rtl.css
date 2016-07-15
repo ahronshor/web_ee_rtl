@@ -113,6 +113,7 @@ margin-right:0px !important;
 
 .rtl .navbar-nav{
 float:right;
+padding: 0;
 }
 
 .rtl .o_kanban_view.o_kanban_dashboard.o_kanban_ungrouped .o_kanban_card_header .o_kanban_manage_button_section .o_kanban_manage_toggle_button {
@@ -154,15 +155,26 @@ margin-right: auto;
 margin-left: auto;
 padding-left: 16px;
 padding-right: 0px;
+
+}
+.rtl .container-fluid .navbar-collapse{
+    width:92%;
 }
 
+.rtl .container-fluid .navbar-right{
+float:left!important;
+margin-left:27px !important;
+margin-right:0 !important;
+}
 .navbar-inverse .navbar-collapse {
 float: left;
-margin-left:-70px !important;
+margin-left:-50px !important;
+padding: 0;
 }
 
 .o_web_client .navbar .oe_systray .o_user_menu{
 float:left !important;
+
 }
 
 .navbar-nav>li{
@@ -174,3 +186,209 @@ float:right !important;
     padding-left: 0px !important;
 }
 
+.rtl .o_form_view .oe_button_box .btn.oe_stat_button {
+    padding: 5px 0px 5px 12px;
+    text-align: right;
+}
+
+.rtl .o_form_view .oe_button_box .btn.oe_stat_button>.o_stat_info{
+    padding-left:12px;
+    padding-right:0px;
+}
+
+.rtl .o_form_view .oe_button_box .btn.oe_stat_button>.o_button_icon{
+    margin-right:12px;
+    margin-left:0;
+}
+
+.rtl .o_form_view .o_group.o_inner_group>tbody>tr>td {
+    padding: 0 0 0 45px;
+}
+
+.rtl .navbar-nav .open .dropdown-menu>li>a {
+
+}
+
+.rtl .navbar-right .dropdown-menu {
+    left: 0;
+        right: auto;
+    }
+
+    .rtl .o_web_client .navbar .oe_systray {
+    }
+
+    .rtl .o_form_view .o_form_statusbar{
+    padding-right:16px;
+    padding-left:0;
+    }
+
+    .rtl .o_control_panel .o_cp_right .o_cp_pager {
+        margin-right: auto;
+    margin-left: 0;
+    direction: rtl;
+}
+
+.rtl .open .dropdown-menu>li>a {
+text-align:right;
+}
+
+.rtl .o_mail_chat .o_mail_chat_content {
+margin-right: 250px;
+margin-left: 0;
+}
+
+.rtl .o_mail_chat .o_mail_chat_sidebar {
+float: right;
+}
+
+.rtl .o_searchview .o_searchview_more {
+left: 0;
+right: auto;
+}
+
+.rtl .o_form_view .o_form_input_dropdown .o_dropdown_button {
+left: 0;
+right: auto;
+}
+
+.rtl .progress-bar {
+float: right;
+}
+
+html, body {
+overflow-x: hidden;
+}
+
+.rtl .o_searchview {
+padding: 0 0 1px 20px;
+}
+
+.rtl .navbar-nav .open .dropdown-menu > li.dropdown-header {
+float: right;
+}
+
+.rtl .dropdown-menu > li > a {
+white-space: nowrap
+}
+
+.rtl li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.rtl .o_searchview .o_searchview_facet .o_facet_remove {
+left: 0;
+right: auto;
+}
+
+.rtl .o_searchview .o_searchview_facet .o_facet_values {
+padding: 0 5px 0 18px;
+}
+
+.rtl .o_searchview .o_searchview_facet {
+margin: 1px 0 0 3px;
+}
+
+.rtl .o_form_view .oe_button_box > .o_dropdown_more {
+left: 0;
+right: auto;
+}
+
+.rtl .o_form_view .oe_button_box > .o_dropdown_more > li > .btn.oe_stat_button {
+border-right: 1px solid #8f8f8f;
+}
+
+.rtl .nav-tabs > li {
+float: right;
+}
+
+.rtl .o_form_view .o_notebook > ul.nav-tabs {
+padding: 0;
+}
+
+.rtl .o_form_view .o_group.o_inner_group > tbody > tr > td.o_td_label {
+padding: 0 0 0 15px;
+}
+
+.rtl .o_control_panel .o_cp_switch_buttons {
+    padding-right: 0px;
+    padding-left: 5px !important;
+}
+
+.rtl .o_control_panel .o_cp_switch_buttons button{
+
+float:right;
+}
+
+.rtl .oe_module_icon {
+float: right;
+}
+
+.rtl .oe_module_desc {
+    padding-left: 0 !important;
+    padding-right: 85px;
+}
+
+.rtl .o_kanban_view .o_kanban_record .o_dropdown_kanban {
+float: left;
+}
+
+.rtl .oe_kanban_bottom_right_appraisal {
+float: left;
+}
+
+
+/**********Sales Page *************/
+
+.rtl .o_progressbar .o_progressbar_value{
+padding: 0 10px; 0 0}
+
+.rtl .o_progressbar .o_progressbar_title{
+padding: 0 0 0 10px;
+}
+
+
+/********** Main Page *************/
+
+.rtl .o_list_view.table td, .rtl .o_list_view.table th{
+text-align:right;
+}
+
+button:after{
+
+}
+
+.rtl .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:before {
+    left: -12px;
+    border-left-color: rgba(128, 128, 128, 0.5);
+}
+
+.rtl .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:before, .rtl .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -9px;
+    bottom: auto;
+    right: auto;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 9px solid #ffffff;
+    border-left: none;
+    -moz-transform: scale(0.9999);
+}
+
+
+
+/* menu *****/
+
+.rtl .o_application_switcher .o_apps .o_app{
+float:right;}
+
+
+
+/****** Select *******/
+
+.rtl select{
+background-position: left!important;
+}
