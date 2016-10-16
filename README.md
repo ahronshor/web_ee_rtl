@@ -1,6 +1,6 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Right-to-Left User Interface is not supported Odoo 9.0 EE which make it is not easy for the users to feel comfort with the Left-to-Right 
 
 ### What is this repository for? ###
 
