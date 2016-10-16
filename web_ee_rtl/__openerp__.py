@@ -9,8 +9,8 @@
         Long description of module's purpose
     """,
 
-    'author': "MEunity",
-    'website': "http://meunity.com/",
+    'author': "Mohamed Magdy",
+    'website': "http://morepython.com/",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
