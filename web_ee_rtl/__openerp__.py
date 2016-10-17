@@ -3,7 +3,7 @@
     'name': "Web EE RTL",
 
     'summary': """
-        EE RTL""",
+        Support RTL for Arabic, Hebrew and Persian UI.""",
 
     'description': """
         Long description of module's purpose
