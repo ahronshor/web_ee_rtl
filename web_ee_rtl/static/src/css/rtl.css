@@ -158,7 +158,8 @@ padding-right: 0px;
 
 }
 .rtl .container-fluid .navbar-collapse{
-    width:92%;
+    width:auto;
+    float: none;
 }
 
 .rtl .container-fluid .navbar-right{
@@ -174,7 +175,7 @@ padding: 0;
 
 .o_web_client .navbar .oe_systray .o_user_menu{
 float:left !important;
-
+direction: ltr;
 }
 
 .navbar-nav>li{
@@ -391,4 +392,25 @@ float:right;}
 
 .rtl select{
 background-position: left!important;
+}
+
+
+.oe_module_desc > button {
+left: 8px;
+right:0;
+}
+
+.rtl .o_kanban_view .o_kanban_record .o_kanban_button > button, .o_kanban_view .o_kanban_record .o_kanban_button > a{
+left: 8px;
+right:0;
+}
+
+.rtl .o_datepicker .o_datepicker_button {
+left: 0;
+right: auto;
+}
+
+.rtl .o_view_manager_content .oe_view_nocontent .oe_view_nocontent_create:before {
+right:0;
+left: auto;
 }
