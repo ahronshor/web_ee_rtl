@@ -175,7 +175,7 @@ padding: 0;
 
 .o_web_client .navbar .oe_systray .o_user_menu{
 float:left !important;
-direction: ltr;
+direction: rtl;
 }
 
 .navbar-nav>li{
@@ -413,4 +413,14 @@ right: auto;
 .rtl .o_view_manager_content .oe_view_nocontent .oe_view_nocontent_create:before {
 right:0;
 left: auto;
+}
+
+.rtl .o_list_editable .o_form_view.o_list_editable_form .o_form_input_dropdown > .o_dropdown_button, .o_list_editable .o_form_view.o_list_editable_form .o_datepicker > .o_dropdown_button, .o_list_editable .o_form_view.o_list_editable_form .o_form_input_dropdown .o_datepicker_button, .o_list_editable .o_form_view.o_list_editable_form .o_datepicker .o_datepicker_button {
+left: 0;
+right: auto;
+}
+
+.rtl .o_list_editable .o_form_view.o_list_editable_form .o_datepicker .o_datepicker_button {
+left: 0;
+right: auto;
 }
