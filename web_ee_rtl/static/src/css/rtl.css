@@ -121,3 +121,31 @@ direction: rtl;
     left: 0;
     right: auto;
 }
+
+.rtl .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+text-align: right;
+}
+
+.rtl .nav-tabs > li {
+float: right;
+}
+
+.rtl ul.nav.nav-tabs {
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+.rtl .o_kanban_view .o_kanban_record .o_kanban_image + div {
+    padding-left: 0;
+    padding-right: 72px;
+}
+
+.rtl .o_kanban_view .o_kanban_record .o_kanban_image {
+    text-align: center;
+    float: right;
+}
+
+.rtl .o_searchview .o_searchview_autocomplete li {
+    padding-right: 25px;
+}
+
