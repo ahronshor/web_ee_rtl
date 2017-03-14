@@ -86,3 +86,38 @@
 }
 
 .rtl{direction:rtl}
+
+a.fa.o_menu_toggle.fa-th {
+    float: right;
+}
+
+.o_main_navbar > ul > li{
+float: right;
+}
+
+.o_main_navbar .o_menu_brand {
+    float: right;
+    margin-left: 35px;
+}
+
+.o_main_navbar > ul {
+    float: right;
+}
+
+.o_main_navbar > ul.o_menu_systray {
+    float: left;
+}
+
+.o_control_panel .o_cp_right .o_cp_pager {
+    margin: auto auto auto 0;
+}
+
+.dropdown-menu > li > a {
+float: right;
+direction: rtl;
+}
+
+.rtl .navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
