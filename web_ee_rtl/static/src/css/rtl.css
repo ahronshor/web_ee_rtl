@@ -149,3 +149,29 @@ float: right;
     padding-right: 25px;
 }
 
+.rtl .o_form_view .oe_button_box .btn.oe_stat_button {
+    padding: 5px 0 5px 12px;
+    text-align: right;
+}
+
+.rtl .o_form_view .oe_button_box > .o_dropdown_more {
+    left: 0;
+    right: auto;
+}
+
+.o_form_view .oe_button_box.o_full .oe_stat_button:not(.o_form_invisible) ~ .oe_stat_button {
+    border-right: 1px solid #8f8f8f;
+}
+
+.rtl .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info {
+    padding-right: 0;
+    padding-left: 12px;
+}
+
+.rtl button.btn.btn-sm.oe_stat_button.o_button_more.dropdown-toggle {
+    padding: 5px 12px 5px 0px;
+}
+
+.o_application_switcher {
+    direction: rtl;
+}
