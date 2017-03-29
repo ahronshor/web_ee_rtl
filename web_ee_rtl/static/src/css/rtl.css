@@ -98,6 +98,7 @@ float: right;
 .o_main_navbar .o_menu_brand {
     float: right;
     margin-left: 35px;
+    margin-right: 0;
 }
 
 .o_main_navbar > ul {
@@ -150,7 +151,7 @@ float: right;
 }
 
 .rtl .o_form_view .oe_button_box .btn.oe_stat_button {
-    padding: 5px 0 5px 12px;
+    padding: 5px 12px 5px 0;
     text-align: right;
 }
 
@@ -174,4 +175,129 @@ float: right;
 
 .o_application_switcher {
     direction: rtl;
+}
+
+.rtl .o_searchview .o_searchview_facet .o_facet_remove {
+    left: 0;
+    right: auto;
+}
+
+.rtl .o_searchview .o_searchview_facet .o_facet_values {
+    padding: 0 5px 0 18px;
+}
+
+.rtl .o_searchview .o_searchview_facet {
+        margin: 1px 0 0 3px;
+}
+
+.rtl .col-lg-3.col-md-3.col-sm-6.col-xs-12.o_web_settings_dashboard_col {
+    float: right;
+}
+
+.rtl .o_form_view .oe_avatar {
+    float: left;
+}
+
+.o_form_view .oe_avatar + .oe_title {
+    padding-left: 100px;
+    padding-right: 0;
+}
+
+@media (min-width: 480px)
+web.assets_backend.0.css:105
+.rtl .o_form_view .oe_title {
+    padding-left: 45px;
+    padding-right: 0px;
+}
+
+.rtl .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.rtl .dropdown-menu > li > a {
+    text-align: right;
+    width: 100%;
+}
+
+.rtl .o_main_navbar > ul.o_menu_systray .open .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.rtl .o_kanban_view .o_kanban_record .o_dropdown_kanban {
+    float: left;
+}
+
+.rtl img.oe_kanban_avatar.pull-right {
+    float: left !important;
+}
+
+.rtl button.o_follow_btn.o_following.btn.btn-sm.btn-default.oe_kanban_action.oe_kanban_action_button {
+    right: auto;
+    left: 8px;
+}
+
+.rtl .o_kanban_view.o_kanban_dashboard.o_salesteam_kanban .o_sales_dashboard > div > table > tbody > tr > td.o_text {
+    text-align: right;
+}
+
+.rtl .o_progressbar .o_progressbar_title {
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.rtl .o_progressbar .o_progressbar_value {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.rtl .o_kanban_view.o_kanban_dashboard.o_kanban_ungrouped .o_kanban_card_header .o_kanban_manage_button_section .o_kanban_manage_toggle_button, .o_kanban_view.o_kanban_dashboard.o_kanban_grouped .o_kanban_card_header .o_kanban_manage_button_section .o_kanban_manage_toggle_button {
+    text-align: left;
+    direction: ltr;
+}
+
+.rtl .col-xs-6.o_kanban_primary_left {
+    float: right;
+}
+
+.rtl .o_form_view .o_group.o_inner_group > tbody > tr > td {
+    padding: 0 0 0 45px;
+}
+
+.rtl .o_calendar_container .o_calendar_sidebar_container .o_calendar_sidebar {
+    width: 250px;
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+.rtl .o_calendar_container .o_calendar_sidebar_container .o_calendar_sidebar_toggler {
+    left: 0;
+    right: auto;
+}
+
+.rtl .o_form_view .o_form_input_dropdown .o_dropdown_button {
+    left: 0;
+    right: auto;
+}
+
+.rtl .o_kanban_view.o_kanban_dashboard.o_project_kanban .o_project_kanban_main .o_project_kanban_manage .o_left {
+    right: 0;
+    left: auto;
+    direction: ltr;
+}
+
+.rtl .o_form_view .o_form_statusbar > .o_statusbar_status .o-status-more > li > button {
+    width: 100%;
+    text-align: right;
+}
+
+.rtl .o_form_view .o_form_statusbar > .o_statusbar_status .o-status-more {
+    left: 0;
+    right: auto;
+}
+
+.rtl .o_form_view .o_form_sheet > .o_kanban_selection {
+    float: left;
 }
